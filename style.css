@@ -168,3 +168,37 @@ header a {
     font-weight: bold;
     padding-top: 1rem;
 }
+
+.action .content {
+    width: 70%;
+    max-width: 800px;
+    margin: 4.5rem auto;
+    padding: min(5%, 3rem) min(5%, 5rem);
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.message h3 {
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.message p {
+    color: #e5e7eb;
+}
+
+.action button {
+    background-color: inherit;
+    color: #f9faf8;
+    border: 2px solid currentcolor;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    white-space: nowrap;
+}
