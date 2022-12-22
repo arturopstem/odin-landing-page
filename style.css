@@ -202,3 +202,18 @@ header a {
     padding: 0.5rem 2rem;
     white-space: nowrap;
 }
+
+footer {
+    background-color: #1f2937;
+    padding: 2rem 0;
+}
+
+footer p {
+    color: #f9faf8;
+    text-align: center;
+    padding: 0 5%;
+}
+
+footer span {
+    white-space: nowrap;
+}
