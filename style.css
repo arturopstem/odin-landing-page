@@ -10,6 +10,43 @@ html {
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+header .header {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+header nav {
+    margin-left: auto;
+    padding: 1rem 0;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
