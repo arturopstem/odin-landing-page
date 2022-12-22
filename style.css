@@ -100,3 +100,45 @@ header a {
     height: auto;
     object-fit: cover;
 }
+
+.info {
+    padding: 3rem 0 7rem;
+}
+
+.info .content {
+    width: 70%;
+    margin: auto;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.info .images {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info figure {
+    flex: 0 1 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.images img {
+    width: 180px;
+    border: .5rem solid #3882f6;
+    border-radius: 1rem;
+}
+
+.images figcaption {
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
